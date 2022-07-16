@@ -3,7 +3,7 @@ entries:
   istio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-16T10:01:26.900653607-06:00"
+    created: "2022-07-16T10:07:24.778465274-06:00"
     description: A Helm chart for Kubernetes
     digest: e5366fee1eba21338791907a2d29dd20b849c37e284aebd2dc251a049fb756ed
     name: istio
@@ -14,7 +14,7 @@ entries:
   servicemesh:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-16T10:01:26.900906345-06:00"
+    created: "2022-07-16T10:07:24.778758399-06:00"
     description: A Helm chart for Kubernetes
     digest: 17218ad087e4509e1358aa65a3347eda4cc3c642573735ca8b2908f287b63c7e
     name: servicemesh
@@ -22,4 +22,4 @@ entries:
     urls:
     - https://github.com/claudiol/validated-patterns-helm-charts/charts/servicemesh-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-16T10:01:26.900026443-06:00"
+generated: "2022-07-16T10:07:24.777740984-06:00"
