@@ -1,25 +1,49 @@
 apiVersion: v1
 entries:
+  Hashicorp-Vault:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-07-28T14:13:54.66844186-06:00"
+    dependencies:
+    - condition: vault.enabled
+      name: vault
+      repository: https://helm.releases.hashicorp.com
+      tags:
+      - hashicorp-vault
+      version: v0.17.1
+    - condition: vault-bootstrap.enabled
+      name: vault-bootstrap
+      repository: ""
+      tags:
+      - vault-bootstrap
+      version: 0.1.0
+    description: Helm chart to deploy Vault to an OpenShift Cluster
+    digest: 2dc814932c71f2cc62bca3be94704f1c77b1808c5b6da0b17c351f794282ea5b
+    name: Hashicorp-Vault
+    type: application
+    urls:
+    - https://claudiol.github.io/Hashicorp-Vault-0.0.1.tgz
+    version: 0.0.1
   istio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-16T10:11:43.596377794-06:00"
+    created: "2022-07-28T14:13:54.668805855-06:00"
     description: A Helm chart for Kubernetes
-    digest: e5366fee1eba21338791907a2d29dd20b849c37e284aebd2dc251a049fb756ed
+    digest: a381d1975bb007cd20af86a793d493e65b1727772d7a84df892617ec95343998
     name: istio
     type: application
     urls:
-    - https://github.com/claudiol/validated-patterns-helm-charts/blob/main/charts/istio-0.1.0.tgz
+    - https://claudiol.github.io/istio-0.1.0.tgz
     version: 0.1.0
   servicemesh:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-16T10:11:43.596589507-06:00"
+    created: "2022-07-28T14:13:54.669003748-06:00"
     description: A Helm chart for Kubernetes
-    digest: 17218ad087e4509e1358aa65a3347eda4cc3c642573735ca8b2908f287b63c7e
+    digest: e54c9c73c71ce7ab9869c6197ba5e8d81f656646b93412603b69fdc3f2a5e871
     name: servicemesh
     type: application
     urls:
-    - https://github.com/claudiol/validated-patterns-helm-charts/blob/main/charts/servicemesh-0.1.0.tgz
+    - https://claudiol.github.io/servicemesh-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-16T10:11:43.595943816-06:00"
+generated: "2022-07-28T14:13:54.664608299-06:00"
